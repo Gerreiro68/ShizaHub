@@ -10,6 +10,11 @@ local Scripts = {
         Path = "Games/1%2B%20speed%20keyboard.lua",
     },
 
+    Evade = {
+        Name = "Evade",
+        Path = "Games/evade.lua",
+    },
+
     -- Future scripts template:
     -- NewGame = {
     --     Name = "New Game Script",
@@ -20,6 +25,7 @@ local Scripts = {
 local Games = {
     ["95082159892680"] = Scripts.SpeedKeyboard,
     ["118941584817777"] = Scripts.SpeedKeyboard,
+    ["9872472334"] = Scripts.Evade,
 
     -- Future game IDs template:
     -- ["PLACE_ID_OR_GAME_ID"] = Scripts.NewGame,
